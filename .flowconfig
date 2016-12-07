@@ -1,0 +1,9 @@
+[ignore]
+.*node_modules/.*
+
+[libs]
+flow
+
+[options]
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue

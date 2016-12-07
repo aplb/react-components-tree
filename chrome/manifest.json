@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "React Components Tree",
+  "description": "Adds React components tree to the Chrome Developer Tools.",
+  "version": "0.1",
+  "minimum_chrome_version": "43",
+  "icons": {
+
+  },
+
+  "devtools_page": "main.html",
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "web_accessible_resources": [ "main.html", "panel.html", "build/backend.js"],
+
+  "background": {
+    "scripts": [ "build/background.js" ],
+    "persistent": false
+  },
+
+  "permissions": [
+    "file:///*",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "content_scripts": [
+
+  ]
+}
