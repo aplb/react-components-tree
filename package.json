@@ -1,15 +1,15 @@
 {
-  "name": "tools-extension",
+  "name": "React Components Tree State",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/.bin/eslint .",
     "typecheck": "flow check"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+      "react", "redux", "components", "tree", "state"
+  ],
+  "author": "Alexandr Bashkatov",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.18.2",
