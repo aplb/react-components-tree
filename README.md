@@ -7,7 +7,7 @@ Explore app components just like redux state.
 - run `npm install`
 - run `webpack` or `webpack --watch` in `chrome` directory
 - Go to `chrome://extensions`, check "developer mode", and click "Load
-unpacked extension", and select `chrome` this directory
+unpacked extension", and select `chrome` directory
 - Go ahead
 
 ![](/images/react-app-view.png)
